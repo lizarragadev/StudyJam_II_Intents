@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:padding="10dp"
+    tools:context="com.miramicodigo.studyjam_ii_intents.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/fondo"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main.tv.explicitos"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/btnSegundaActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/main.btn.segundaactivity"/>
+            <Button
+                android:id="@+id/btnEnvioDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/main.btn.enviodatos"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main.tv.implicitos"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/btnIrPaginaWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/main.btn.pagweb" />
+
+            <Button
+                android:id="@+id/btnIrGoogleMaps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/main.btn.googlemaps" />
+            <Button
+                android:id="@+id/btnIrMarcadoTelefonico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/main.btn.marcado" />
+            <Button
+                android:id="@+id/btnLlamar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/main.btn.llamar" />
+            <Button
+                android:id="@+id/btnCompartirTexto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/main.btn.comp.texto"/>
+            <Button
+                android:id="@+id/btnCompartirImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/main.btn.comp.imagen" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

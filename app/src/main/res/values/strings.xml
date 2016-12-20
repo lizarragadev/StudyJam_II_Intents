@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Intents</string>
+
+    <string name="main.tv.implicitos">Intents Implicitos</string>
+    <string name="main.tv.explicitos">Intents Explicitos</string>
+
+    <string name="main.btn.segundaactivity">Segunda Activity</string>
+    <string name="main.btn.enviodatos">Envio Datos</string>
+    <string name="main.btn.pagweb">Ir Pagina Web</string>
+    <string name="main.btn.googlemaps">Ir Google Maps</string>
+    <string name="main.btn.marcado">Ir Marcado Telefonico</string>
+    <string name="main.btn.llamar">Llamar Numero</string>
+    <string name="main.btn.comp.texto">Compartir Texto</string>
+    <string name="main.btn.comp.imagen">Compartir Imagen</string>
+</resources>
